@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>mini-75-763</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<script> function replacelem() { let elems = document.getElementsByTagName('img'); let id = 0; for (let i = 0; i < elems.length; i++) { if (elems[i].alt === '1') { elems[i].id = id; document.getElementById(id).style.cursor = 'pointer'; document.getElementById(id).addEventListener('click', function(event, id) { changePic(event.target); }); id ++; } } } function changePic(id) { let nom = null; nom = id.src; if (id.src.includes('normal/images')) { nom = nom.replace('normal/images', 'corrige/images'); } else { nom = nom.replace('corrige/images', 'normal/images'); } id.src = nom; } function resetAll() { let elems = document.getElementsByTagName('img'); for (let i = 0; i < elems.length; i++) { elems[i].src = elems[i].src.replace('corrige/images', 'normal/images');}}</script> <body onload='replacelem()' bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (mini-75-763.psd) -->
+<button style="z-index: 100;position: fixed;bottom: 40px; right: 40px;padding: 10px 20px;font-size: 18px;border-radius: 10px;outline: none !important;border: none !important;background-color: #c4007a;color: white;cursor: pointer;" onclick="resetAll()"> Remettre à zéro </button> <table id="Table_01" width="1256" height="1632" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="9">
+			<img src="normal/images/mini-75-763_01.png" width="1256" height="123" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="6">
+			<img src="normal/images/mini-75-763_02.png" width="196" height="1508" alt=""></td>
+		<td>
+			<img src="normal/images/mini-75-763_03.png" width="350" height="359" alt="1"></td>
+		<td rowspan="4">
+			<img src="normal/images/mini-75-763_04.png" width="10" height="833" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_05.png" width="315" height="359" alt="1"></td>
+		<td rowspan="4">
+			<img src="normal/images/mini-75-763_06.png" width="7" height="833" alt=""></td>
+		<td>
+			<img src="normal/images/mini-75-763_07.png" width="315" height="359" alt="1"></td>
+		<td rowspan="6">
+			<img src="normal/images/mini-75-763_08.png" width="63" height="1508" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/mini-75-763_09.png" width="350" height="15" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_10.png" width="315" height="15" alt=""></td>
+		<td>
+			<img src="normal/images/mini-75-763_11.png" width="315" height="15" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/mini-75-763_12.png" width="350" height="359" alt="1"></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_13.png" width="315" height="359" alt="1"></td>
+		<td>
+			<img src="normal/images/mini-75-763_14.png" width="315" height="359" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/mini-75-763_15.png" width="350" height="100" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_16.png" width="315" height="100" alt=""></td>
+		<td>
+			<img src="normal/images/mini-75-763_17.png" width="315" height="100" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_18.png" width="504" height="584" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/mini-75-763_19.png" width="23" height="675" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_20.png" width="470" height="584" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_21.png" width="504" height="91" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/mini-75-763_22.png" width="470" height="91" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/spacer.gif" width="196" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="350" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="144" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="23" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="148" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="7" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="315" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="63" height="1" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

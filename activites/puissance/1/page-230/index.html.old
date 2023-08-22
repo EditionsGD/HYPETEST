@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>4577_sec1_ch74</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<script> function replacelem() { let elems = document.getElementsByTagName('img'); let id = 0; for (let i = 0; i < elems.length; i++) { if (elems[i].alt === '1') { elems[i].id = id; document.getElementById(id).style.cursor = 'pointer'; document.getElementById(id).addEventListener('click', function(event, id) { changePic(event.target); }); id ++; } } } function changePic(id) { let nom = null; nom = id.src; if (id.src.includes('normal/images')) { nom = nom.replace('normal/images', 'corrige/images'); } else { nom = nom.replace('corrige/images', 'normal/images'); } id.src = nom; } function resetAll() { let elems = document.getElementsByTagName('img'); for (let i = 0; i < elems.length; i++) { elems[i].src = elems[i].src.replace('corrige/images', 'normal/images');}}</script> <body onload='replacelem()' bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (4577_sec1_ch74.psd) -->
+<button style="z-index: 100;position: fixed;bottom: 40px; right: 40px;padding: 10px 20px;font-size: 18px;border-radius: 10px;outline: none !important;border: none !important;background-color: #c4007a;color: white;cursor: pointer;" onclick="resetAll()"> Remettre à zéro </button> <table id="Table_01" width="1256" height="1632" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="9">
+			<img src="normal/images/4577_sec1_ch74_01.png" width="1256" height="926" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="6">
+			<img src="normal/images/4577_sec1_ch74_02.png" width="29" height="705" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_03.png" width="570" height="398" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch74_04.png" width="6" height="466" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_05.png" width="538" height="398" alt="1"></td>
+		<td rowspan="6">
+			<img src="normal/images/4577_sec1_ch74_06.png" width="113" height="705" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_07.png" width="570" height="68" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_08.png" width="538" height="68" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_09.png" width="385" height="46" alt="1"></td>
+		<td rowspan="4">
+			<img src="normal/images/4577_sec1_ch74_10.png" width="10" height="239" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_11.png" width="327" height="46" alt="1"></td>
+		<td rowspan="4">
+			<img src="normal/images/4577_sec1_ch74_12.png" width="10" height="239" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_13.png" width="382" height="46" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_14.png" width="385" height="9" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_15.png" width="327" height="9" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_16.png" width="382" height="9" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_17.png" width="385" height="54" alt="1"></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_18.png" width="327" height="54" alt="1"></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_19.png" width="382" height="54" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_20.png" width="385" height="130" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch74_21.png" width="327" height="130" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch74_22.png" width="382" height="130" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/spacer.gif" width="29" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="385" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="175" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="6" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="146" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="382" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="113" height="1" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

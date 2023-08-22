@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>4577_sec1_ch416</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<script> function replacelem() { let elems = document.getElementsByTagName('img'); let id = 0; for (let i = 0; i < elems.length; i++) { if (elems[i].alt === '1') { elems[i].id = id; document.getElementById(id).style.cursor = 'pointer'; document.getElementById(id).addEventListener('click', function(event, id) { changePic(event.target); }); id ++; } } } function changePic(id) { let nom = null; nom = id.src; if (id.src.includes('normal/images')) { nom = nom.replace('normal/images', 'corrige/images'); } else { nom = nom.replace('corrige/images', 'normal/images'); } id.src = nom; } function resetAll() { let elems = document.getElementsByTagName('img'); for (let i = 0; i < elems.length; i++) { elems[i].src = elems[i].src.replace('corrige/images', 'normal/images');}}</script> <body onload='replacelem()' bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (4577_sec1_ch416.psd) -->
+<button style="z-index: 100;position: fixed;bottom: 40px; right: 40px;padding: 10px 20px;font-size: 18px;border-radius: 10px;outline: none !important;border: none !important;background-color: #c4007a;color: white;cursor: pointer;" onclick="resetAll()"> Remettre à zéro </button> <table id="Table_01" width="1256" height="1632" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="11">
+			<img src="normal/images/4577_sec1_ch416_01.png" width="1256" height="238" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="22">
+			<img src="normal/images/4577_sec1_ch416_02.png" width="94" height="1393" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_03.png" width="328" height="50" alt="1"></td>
+		<td rowspan="8">
+			<img src="normal/images/4577_sec1_ch416_04.png" width="10" height="367" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_05.png" width="328" height="50" alt="1"></td>
+		<td rowspan="8">
+			<img src="normal/images/4577_sec1_ch416_06.png" width="11" height="367" alt=""></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_07.png" width="328" height="50" alt="1"></td>
+		<td rowspan="22">
+			<img src="normal/images/4577_sec1_ch416_08.png" width="157" height="1393" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_09.png" width="328" height="4" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_10.png" width="328" height="4" alt=""></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_11.png" width="328" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_12.png" width="328" height="50" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_13.png" width="328" height="50" alt="1"></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_14.png" width="328" height="50" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_15.png" width="328" height="66" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_16.png" width="328" height="66" alt=""></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_17.png" width="328" height="66" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_18.png" width="328" height="62" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_19.png" width="328" height="62" alt="1"></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_20.png" width="328" height="62" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_21.png" width="328" height="10" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_22.png" width="328" height="10" alt=""></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_23.png" width="328" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_24.png" width="328" height="62" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_25.png" width="328" height="62" alt="1"></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_26.png" width="328" height="62" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_27.png" width="328" height="63" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_28.png" width="328" height="63" alt=""></td>
+		<td colspan="2">
+			<img src="normal/images/4577_sec1_ch416_29.png" width="328" height="63" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_30.png" width="494" height="41" alt="1"></td>
+		<td rowspan="12">
+			<img src="normal/images/4577_sec1_ch416_31.png" width="11" height="376" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_32.png" width="500" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_33.png" width="494" height="8" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_34.png" width="500" height="8" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_35.png" width="494" height="41" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_36.png" width="500" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_37.png" width="494" height="10" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_38.png" width="500" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_39.png" width="494" height="41" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_40.png" width="500" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_41.png" width="494" height="11" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_42.png" width="500" height="11" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_43.png" width="494" height="47" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_44.png" width="500" height="47" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_45.png" width="494" height="5" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_46.png" width="500" height="5" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_47.png" width="494" height="47" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_48.png" width="500" height="47" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_49.png" width="494" height="4" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_50.png" width="500" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_51.png" width="494" height="47" alt="1"></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_52.png" width="500" height="47" alt="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_53.png" width="494" height="74" alt=""></td>
+		<td colspan="4">
+			<img src="normal/images/4577_sec1_ch416_54.png" width="500" height="74" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_55.png" width="328" height="566" alt="1"></td>
+		<td colspan="2" rowspan="2">
+			<img src="normal/images/4577_sec1_ch416_56.png" width="11" height="650" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch416_57.png" width="327" height="566" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch416_58.png" width="11" height="650" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_59.png" width="327" height="566" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch416_60.png" width="1" height="650" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_61.png" width="328" height="84" alt=""></td>
+		<td colspan="3">
+			<img src="normal/images/4577_sec1_ch416_62.png" width="327" height="84" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch416_63.png" width="327" height="84" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/spacer.gif" width="94" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="328" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="155" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="11" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="161" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="11" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="327" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="normal/images/spacer.gif" width="157" height="1" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

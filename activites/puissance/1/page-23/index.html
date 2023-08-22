@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>4577_sec1_ch123</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<script> window.addEventListener('message', function(event) { document.body.style.pointerEvents = 'none'; let temp = document.getElementsByTagName('button'); if (temp.length > 0) { for (let i =0; i < temp.length; i++) { temp[i].style.display = 'none';}}}, false); function replacelem() { let elems = document.getElementsByTagName('img'); let id = 0; for (let i = 0; i < elems.length; i++) { if (elems[i].alt === '1') { elems[i].id = id; document.getElementById(id).style.cursor = 'pointer'; document.getElementById(id).addEventListener('click', function(event, id) { changePic(event.target); }); id ++; } } } function changePic(id) { let nom = null; nom = id.src; if (id.src.includes('normal/images')) { nom = nom.replace('normal/images', 'corrige/images'); } else { nom = nom.replace('corrige/images', 'normal/images'); } id.src = nom; } function resetAll() { let elems = document.getElementsByTagName('img'); for (let i = 0; i < elems.length; i++) { elems[i].src = elems[i].src.replace('corrige/images', 'normal/images');}}</script> <body onload='replacelem()' bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (4577_sec1_ch123.psd) -->
+<button style="z-index: 100;position: fixed;bottom: 40px; right: 40px;padding: 10px 20px;font-size: 18px;border-radius: 10px;outline: none !important;border: none !important;background-color: #c4007a;color: white;cursor: pointer;" onclick="resetAll()"> Remettre à zéro </button> <table id="Table_01" width="1256" height="1631" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="7">
+			<img src="normal/images/4577_sec1_ch123_01.png" width="1256" height="1484" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch123_02.png" width="208" height="147" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_03.png" width="318" height="54" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch123_04.png" width="13" height="147" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_03-05.png" width="318" height="54" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch123_06.png" width="16" height="147" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_03-07.png" width="318" height="54" alt="1"></td>
+		<td rowspan="2">
+			<img src="normal/images/4577_sec1_ch123_08.png" width="65" height="147" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_09.png" width="318" height="93" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_10.png" width="318" height="93" alt=""></td>
+		<td>
+			<img src="normal/images/4577_sec1_ch123_11.png" width="318" height="93" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

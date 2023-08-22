@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>4578_sec2_ch5_FINAL15</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<script> function replacelem() { let elems = document.getElementsByTagName('img'); let id = 0; for (let i = 0; i < elems.length; i++) { if (elems[i].alt === '1') { elems[i].id = id; document.getElementById(id).style.cursor = 'pointer'; document.getElementById(id).addEventListener('click', function(event, id) { changePic(event.target); }); id ++; } } } function changePic(id) { let nom = null; nom = id.src; if (id.src.includes('normal/images')) { nom = nom.replace('normal/images', 'corrige/images'); } else { nom = nom.replace('corrige/images', 'normal/images'); } id.src = nom; } function resetAll() { let elems = document.getElementsByTagName('img'); for (let i = 0; i < elems.length; i++) { elems[i].src = elems[i].src.replace('corrige/images', 'normal/images');}}</script> <body onload='replacelem()' bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (4578_sec2_ch5_FINAL15.psd) -->
+<button style="z-index: 100;position: fixed;bottom: 40px; right: 40px;padding: 10px 20px;font-size: 18px;border-radius: 10px;outline: none !important;border: none !important;background-color: #c4007a;color: white;cursor: pointer;" onclick="resetAll()"> Remettre à zéro </button> <table id="Table_01" width="1256" height="1631" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3">
+			<img src="normal/images/4578_sec2_ch5_FINAL15_01.png" width="1256" height="176" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="12">
+			<img src="normal/images/4578_sec2_ch5_FINAL15_02.png" width="116" height="1455" alt=""></td>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03.png" width="1079" height="41" alt="1"></td>
+		<td rowspan="12">
+			<img src="normal/images/4578_sec2_ch5_FINAL15_04.png" width="61" height="1455" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_05.png" width="1079" height="9" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03-06.png" width="1079" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_07.png" width="1079" height="9" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03-08.png" width="1079" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_09.png" width="1079" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03-10.png" width="1079" height="41" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_11.png" width="1079" height="35" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03-12.png" width="1079" height="600" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_13.png" width="1079" height="17" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_03-14.png" width="1079" height="524" alt="1"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="normal/images/4578_sec2_ch5_FINAL15_15.png" width="1079" height="87" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>
